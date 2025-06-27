@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Your special section</title>
+    <link rel="shortcut icon" href="/img/favicon.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="notes-section">
+        <div class="container-music">
+          <div class="layout-header">
+            <div class="layout-name-music">
+              <img
+                src="/img/Photograph.svg"
+                alt="Logo de la cancion Photograph"
+              />
+
+              <div class="name-music">
+                <p><strong>Photograph</strong></p>
+                <span>Ed Sheeran</span>
+              </div>
+            </div>
+
+            <span class="music-icon">
+              <ion-icon name="musical-notes-outline"></ion-icon>
+            </span>
+          </div>
+
+          <div class="layout-btn-play">
+            <button>
+              <ion-icon name="play-circle-outline" id="play"></ion-icon>
+              <ion-icon name="pause-circle-outline" id="pause"></ion-icon>
+            </button>
+            <audio
+              id="music"
+              src="/img/Photograph - Ed Sheeran (SlowedReverb).mp3"
+            ></audio>
+          </div>
+        </div>
+
+        <!--MESSAGE-->
+
+        <article class="message-card-friend" id="show-more">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
+            corrupti, hic laboriosam tenetur ullam autem inventore corporis amet
+            est ipsam? Nostrum consequatur officia esse nisi quam, vero
+            doloremque molestias sunt.
+          </p>
+          <div class="shadow-container"></div>
+        </article>
+        <button class="btn" id="show-more-btn">Segur leyendo...</button>
+      </section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="notes.js"></script>
+  </body>
+</html>
