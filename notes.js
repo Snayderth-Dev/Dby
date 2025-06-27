@@ -6,7 +6,7 @@ const pauseBtn = document.getElementById("pause");
 const song = document.getElementById("music");
 
 showMoreBtn.addEventListener("click", () => {
-  showMoreText.style.height = "400px";
+  showMoreText.style.height = "320px";
   showMoreText.style.overflow = "auto";
   shadowContainer.style.display = "none";
   showMoreBtn.style.display = "none";

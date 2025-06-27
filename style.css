@@ -191,6 +191,8 @@ a:visited {
   padding: 0.8rem;
   border: 2px solid var(--border-color);
   border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
 }
 .message-card p {
   color: var(--color-text);
@@ -323,7 +325,7 @@ footer {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 .layout-header {
   display: flex;
@@ -334,6 +336,11 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+.layout-name-music img {
+  max-width: 20%;
+  height: auto;
+  height: auto;
 }
 .name-music {
   display: flex;
