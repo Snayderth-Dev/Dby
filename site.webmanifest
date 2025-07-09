@@ -2,7 +2,7 @@
   "name": "Cartas para Sabrina",
   "short_name": "Sabrina Spellman",
   "description": "Una web mágica dedicada a Sabrina Spellman, creada por Snayderth.",
-  "start_url": "exercises.html",
+  "start_url": "https://debiu.netlify.app/",
   "display": "standalone",
   "background_color": "#0b0c1a",
   "theme_color": "#0b0c1a",
