@@ -192,6 +192,15 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/sw.js")
+          .then(() => console.log("🕯️ Service Worker registrado"))
+          .catch((error) => console.error("Error con SW:", error));
+      }
+    </script>
     <script src="main.js"></script>
   </body>
 </html>
